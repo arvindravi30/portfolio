@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Arvind Ravi — Project Manager</title>
+<meta name="description" content="Project-first portfolio showcasing PM case studies, artifacts, and outcomes." />
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  .badge{display:inline-flex;align-items:center;border:1px solid #e5e7eb;padding:.125rem .625rem;border-radius:9999px;font-size:.875rem}
+  .pill{border:1px solid #e5e7eb;border-radius:9999px;padding:.25rem .75rem;font-size:.875rem}
+  .card{border:1px solid #e5e7eb;border-radius:1rem;padding:1.25rem;box-shadow:0 1px 2px rgba(16,24,40,.06)}
+  .btn{display:inline-flex;align-items:center;gap:.5rem;border:1px solid #e5e7eb;border-radius:.5rem;padding:.375rem .75rem;font-size:.875rem}
+  .btn:hover{text-decoration:underline}
+  .shadow-soft{box-shadow:0 10px 15px -3px rgba(0,0,0,.1),0 4px 6px -4px rgba(0,0,0,.1)}
+</style>
+</head>
+<body class="bg-white text-neutral-900">
+<header class="sticky top-0 z-50 border-b bg-white/80 backdrop-blur">
+  <div class="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
+    <div class="flex items-center gap-3">
+      <span class="text-lg font-semibold">Arvind Ravi</span>
+      <span class="badge">Project Manager</span>
+    </div>
+    <nav class="flex items-center gap-4 text-sm">
+      <a href="#projects" class="hover:underline">Projects</a>
+      <a href="#skills" class="hover:underline">Skills</a>
+      <a href="#contact" class="hover:underline">Contact</a>
+      <a href="docs/Arvind-Ravi_Project-Manager.pdf" class="btn">📄 Resume</a>
+    </nav>
+  </div>
+</header>
+
+<section class="mx-auto grid max-w-6xl grid-cols-1 items-center gap-8 px-4 pb-6 pt-10 md:grid-cols-2">
+  <div>
+    <h1 class="text-3xl font-bold">Arvind Ravi</h1>
+    <p class="mt-1 text-neutral-600">Project Manager</p>
+    <div class="mt-3 flex flex-wrap items-center gap-3 text-sm text-neutral-700">📍 United States</div>
+    <p class="mt-4 max-w-xl text-neutral-700">
+      Project & Program Management • Agile • Scope / Schedule / Cost • Risk & Issue Mgmt • Stakeholder Alignment
+    </p>
+    <div class="mt-5 flex gap-3">
+      <a href="https://www.linkedin.com/in/arvindr3009/" target="_blank" class="btn">in LinkedIn</a>
+      <a href="mailto:ar8291@nyu.edu" class="btn">✉️ Email</a>
+    </div>
+  </div>
+  <div class="relative">
+    <!-- Inline image (your uploaded photo, compressed) -->
+    <img alt="Graduation portrait" class="w-full rounded-2xl object-cover shadow-soft"
+      src="data:image/webp;base64,{{PHOTO_BASE64}}">
+    <div class="absolute bottom-3 left-3 rounded-full bg-white/85 px-3 py-1 text-xs shadow-soft">🎓 NYU Graduate</div>
+  </div>
+</section>
+
+<section id="projects" class="mx-auto max-w-6xl px-4 py-12">
+  <h2 class="mb-6 text-2xl font-semibold">Projects & Case Studies</h2>
+  <div class="mb-5 flex flex-wrap items-center gap-2">
+    <span class="badge">🔎 Filter</span>
+    <button data-filter="All" class="pill bg-neutral-900 text-white">All</button>
+    <button data-filter="Product/PM" class="pill">Product/PM</button>
+    <button data-filter="Strategy" class="pill">Strategy</button>
+    <button data-filter="Case Competition" class="pill">Case Competition</button>
+    <button data-filter="Data/Analytics" class="pill">Data/Analytics</button>
+  </div>
+  <div id="cards" class="grid grid-cols-1 gap-6 md:grid-cols-2"></div>
+</section>
+
+<section id="skills" class="mx-auto max-w-6xl px-4 py-12">
+  <h2 class="mb-6 text-2xl font-semibold">Skills</h2>
+  <div class="grid grid-cols-1 gap-6 md:grid-cols-3">
+    <div class="card">
+      <h3 class="mb-2 flex items-center gap-2 text-base font-semibold">🧭 PM Core</h3>
+      <ul class="list-inside list-disc text-sm text-neutral-800">
+        <li>Agile, Scrum, Kanban</li><li>Scope / Schedule / Cost</li>
+        <li>Risk, Issues, RAID, Change Control</li><li>Stakeholder & Comms Plans</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3 class="mb-2 flex items-center gap-2 text-base font-semibold">🛠️ Tooling</h3>
+      <p class="text-sm text-neutral-800">Jira, Confluence, Smartsheet, Power BI, Excel, Python, SQL, Figma</p>
+    </div>
+    <div class="card">
+      <h3 class="mb-2 flex items-center gap-2 text-base font-semibold">📑 Docs</h3>
+      <p class="text-sm text-neutral-800">BRDs, PRDs, KPI Trees, Roadmaps, Post-Mortems, Experiment Plans</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="mx-auto max-w-6xl px-4 pb-12">
+  <h2 class="mb-6 text-2xl font-semibold">Contact</h2>
+  <div class="flex flex-wrap items-center gap-3 text-sm">
+    <a href="https://www.linkedin.com/in/arvindr3009/" target="_blank" class="btn">in LinkedIn</a>
+    <a href="mailto:ar8291@nyu.edu" class="btn">✉️ Email</a>
+    <a href="docs/Arvind-Ravi_Project-Manager.pdf" class="btn">📄 Resume</a>
+    <span class="btn">🔗 @ United States</span>
+  </div>
+</section>
+
+<footer class="mx-auto max-w-6xl px-4 pb-10 text-xs text-neutral-500">
+  © <span id="year"></span> Arvind Ravi. All rights reserved.
+</footer>
+
+<script>
+const PROJECTS = [
+  {
+    name: "AMAT Supply Chain Optimization (Statistics Group Project)",
+    period: "Jan–May 2024",
+    affiliation: "NYU",
+    role: "Project Manager",
+    category: "Product/PM",
+    overview:
+      "Prioritized high-risk parts and streamlined planning using MRP analysis and statistical signals to cut planning cycle time.",
+    outcomes: [
+      "Reduced planning cycle time by ~20% through risk-based part prioritization",
+      "Established decision rubric for expedite vs. defer across suppliers",
+      "Aligned stakeholders on critical-path material readiness KPIs",
+    ],
+    artifacts: ["RACI","Risk Register (RAID)","Milestone Plan","KPI Dashboard Spec"],
+    tools: ["Excel","Power BI","MRP","Jira","Confluence"],
+    images: [],
+    links: { doc: "docs/AMAT-Statistics-Group-Project.pdf" }
+  },
+  {
+    name: "Group-7 Final Project (Systems / Strategy)",
+    period: "Dec 2023",
+    affiliation: "NYU",
+    role: "Project Manager",
+    category: "Strategy",
+    overview:
+      "Cross-functional capstone where I owned scope, stakeholder cadence, and the delivery timeline for a complex systems project.",
+    outcomes: [
+      "Kept delivery on track under shifting scope via weekly change control",
+      "Delivered final presentation with quantified risk trade-offs",
+      "Documented post-mortem with next-iteration backlog",
+    ],
+    artifacts: ["Scope Baseline","Change Log","Gantt / Roadmap","Post-Mortem"],
+    tools: ["Smartsheet","Confluence","PowerPoint"],
+    images: [],
+    links: { doc: "docs/Group-7-Final-Project.pdf" }
+  },
+  {
+    name: "FinEquity AI — Inclusive Finance Product Plan",
+    period: "2024",
+    affiliation: "Independent",
+    role: "PM / Strategy",
+    category: "Product/PM",
+    overview:
+      "Product strategy for an ESG-aligned GenAI assistant serving >$1B AUM clients; focused on retention and compliant insights.",
+    outcomes: [
+      "30% lift in target-segment retention from insight personalization",
+      "Validated MVP scope via task success and A/B signal metrics",
+      "De-risked go-to-market with staged feature flags",
+    ],
+    artifacts: ["PRD","Roadmap","Experiment Plan","KPI Tree"],
+    tools: ["Power BI","Figma","Jira"],
+    images: [],
+    links: { doc: "docs/FinEquity-AI.pdf" }
+  },
+  {
+    name: "Green Threads — Sustainability Ops Case",
+    period: "2024",
+    affiliation: "Academic",
+    role: "Case Lead (PM)",
+    category: "Case Competition",
+    overview:
+      "Operational roadmap to reduce Scope 3 emissions while maintaining margin targets in an apparel supply chain.",
+    outcomes: [
+      "Modeled 3 scenarios; selected plan hitting 18% emissions cut at target margin",
+      "Defined supplier scorecard with quarterly business reviews",
+      "Created phase-gate to govern capex on green initiatives",
+    ],
+    artifacts: ["Business Case","Scorecard","Risk Matrix","Benefits Tracker"],
+    tools: ["Excel","Tableau"],
+    images: [],
+    links: { doc: "docs/Green-Threads.pdf" }
+  },
+  {
+    name: "Digital Transformation in Food Manufacturing",
+    period: "2024",
+    affiliation: "Academic",
+    role: "PM / Analyst",
+    category: "Strategy",
+    overview:
+      "Assessed how digital maturity (MES/IoT/Analytics) correlates with throughput, yield, and regional economic impact.",
+    outcomes: [
+      "Evidence of ROI inflection at mid-maturity; informed phased rollout",
+      "Defined telemetry requirements and governance guardrails",
+      "Published exec-ready summary with KPIs and adoption risks",
+    ],
+    artifacts: ["Executive Brief","Telemetry Spec","Change Plan"],
+    tools: ["Power BI","Python (pandas)","SQL"],
+    images: [],
+    links: { doc: "docs/Digital-Transformation-Food-Manufacturing.pdf" }
+  },
+  {
+    name: "MTA Ridership & Ops Insights (Data Product)",
+    period: "2024",
+    affiliation: "Independent",
+    role: "PM / Data Lead",
+    category: "Data/Analytics",
+    overview:
+      "Exploratory analytics translating raw ridership into actionable staffing and maintenance windows.",
+    outcomes: [
+      "Identified off-peak windows to shrink disruption risk",
+      "Prioritized stations for staffing realignment",
+      "Shipped a prototype dashboard with scenario filters",
+    ],
+    artifacts: ["Dashboard Spec","Backlog","Release Notes"],
+    tools: ["Python","Power BI","dbt (conceptual)"],
+    images: [],
+    links: { doc: "docs/Final-Report-MTA.pdf" }
+  },
+  {
+    name: "F1 Performance Analytics",
+    period: "2024",
+    affiliation: "Independent",
+    role: "PM / Analyst",
+    category: "Data/Analytics",
+    overview:
+      "Decomposed driver/team performance to inform strategy calls; packaged insights into a concise data story.",
+    outcomes: [
+      "Built feature set explaining >70% of point variance",
+      "Created reusable data prep pipeline for new seasons",
+      "Published narrative deck for non-technical stakeholders",
+    ],
+    artifacts: ["Data Story Deck","Metric Dictionary"],
+    tools: ["Python","Power BI"],
+    images: [],
+    links: { doc: "docs/F1-Analytics.pdf" }
+  },
+  {
+    name: "Zicklin Business Case Competition",
+    period: "2024",
+    affiliation: "Zicklin (Competition)",
+    role: "PM / Presenter",
+    category: "Case Competition",
+    overview:
+      "Led a time-boxed case sprint; coordinated research, synthesis, and a story-driven executive pitch.",
+    outcomes: [
+      "Delivered on-time deck with defensible financials",
+      "Codified roles and handoffs to avoid duplicate work",
+      "Documented lessons for next cohort",
+    ],
+    artifacts: ["Storyline","Financial Model","Q&A Addendum"],
+    tools: ["PowerPoint","Excel"],
+    images: [],
+    links: { doc: "docs/Zicklin-Case.pdf" }
+  }
+];
+
+const cardsEl = document.getElementById("cards");
+const filters = [...document.querySelectorAll("[data-filter]")];
+
+function pills(list){return list.map(t=>`<span class="pill">${t}</span>`).join("")}
+function ul(list){return `<ul class="list-inside list-disc text-sm text-neutral-800">${list.map(x=>`<li>${x}</li>`).join("")}</ul>`}
+function gallery(imgs,name){ if(!imgs||!imgs.length) return ""; return `<div class="mt-4 grid grid-cols-3 gap-2">${imgs.map((src,i)=>`<img src="${src}" alt="${name} ${i+1}" class="h-24 w-full rounded-md object-cover border" />`).join("")}</div>`}
+function card(p){
+  return `<article class="card">
+    <div class="mb-3 flex items-start justify-between gap-3">
+      <div>
+        <h3 class="text-lg font-semibold">${p.name}</h3>
+        <div class="mt-1 flex flex-wrap items-center gap-2 text-xs text-neutral-600">
+          ${p.affiliation?`<span class="badge">${p.affiliation}</span>`:""}
+          ${p.role?`<span class="badge">${p.role}</span>`:""}
+          <span class="badge">${p.category}</span>
+          <span>· ${p.period}</span>
+        </div>
+      </div>
+    </div>
+    <p class="text-sm text-neutral-800">${p.overview}</p>
+    ${gallery(p.images,p.name)}
+    <div class="mt-4 grid grid-cols-1 gap-4 sm:grid-cols-3">
+      <div><h4 class="mb-1 text-sm font-semibold">Outcomes</h4>${ul(p.outcomes)}</div>
+      <div><h4 class="mb-1 text-sm font-semibold">PM Artifacts</h4>${ul(p.artifacts)}</div>
+      <div><h4 class="mb-1 text-sm font-semibold">Tools Used</h4><div class="flex flex-wrap gap-1">${pills(p.tools)}</div></div>
+    </div>
+    <div class="mt-4 flex flex-wrap gap-2">
+      ${p.links?.doc?`<a class="btn" target="_blank" href="${p.links.doc}">📄 Case Doc</a>`:""}
+      ${p.links?.live?`<a class="btn" target="_blank" href="${p.links.live}">🔗 Live / Repo</a>`:""}
+    </div>
+  </article>`;
+}
+function render(cat="All"){
+  const list = cat==="All"?PROJECTS:PROJECTS.filter(p=>p.category===cat);
+  cardsEl.innerHTML = list.map(card).join("");
+  filters.forEach(b=>{
+    const on = b.dataset.filter===cat;
+    b.classList.toggle("bg-neutral-900", on);
+    b.classList.toggle("text-white", on);
+  });
+}
+document.getElementById("year").textContent = new Date().getFullYear();
+filters.forEach(b=>b.addEventListener("click",()=>render(b.dataset.filter)));
+render("All");
+</script>
+</body>
+</html>
